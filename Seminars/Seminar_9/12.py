@@ -1,0 +1,1 @@
+# https://github.com/Vladislav-Kuz/Python/tree/7172d3b9172eace25a901680e133f9e8f27a3f69/Lesson5_analysis
