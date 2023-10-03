@@ -14,3 +14,5 @@ min_num = int(input('Введите минимальное число: '))
 max_num = int(input('Введите максимальное число: '))
 list1 = [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
 print(get_indexes(list1, min_num, max_num))
+
+

@@ -12,11 +12,14 @@ a1 = int(input("Введите первый элемент прогрессии:
 n = int(input("Введите шаг прогрессии: "))
 d = int(input("Количество элементов прогрессии: "))
 
-arr = [a1]
+arr = []
 
-for i in range(d -1):
+for i in range(d):
     a1 += n
     arr.append(a1)
 
 print("Массив элементов арифметической прогрессии:", arr)
 print('Распакованный массив: ', *arr)
+
+# list2 = [arr + i * n for _ in range(n)]
+# list3 = list(range(arr, arr +(n -1) *d, d))
